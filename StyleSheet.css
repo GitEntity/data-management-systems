@@ -1,0 +1,125 @@
+body
+{
+    background-image:url('images/BackColor.gif');
+    background-repeat:repeat-x;
+}
+
+table tr td  
+{
+    padding: 0px;
+}
+
+.OuterTableStyle
+{
+     border:1px solid #527a67;
+     border-collapse:collapse;
+     border-spacing: 0px;
+     width:790px;
+     margin-left:auto; 
+     margin-right:auto;
+}
+
+.InnerTableStyle
+{
+     border-spacing:0px;
+     border-collapse:collapse;     
+     width:100%;
+     margin-left:auto;
+     margin-right:auto;
+}
+
+.HeaderCell
+{
+    background-image:url('images/logo.gif');
+    background-repeat:no-repeat;    
+    height:100px;
+    width:100%;
+    background-position:left;
+}
+
+.Separator0
+{
+    height:1px;
+    width:100%;
+    background-color:#426a57;  
+}
+
+.Separator1
+{
+    height:1px;
+    width:100%;
+    background-color:#afd5c5;  
+}
+
+.Separator2
+{
+    height:1px;
+    width:100%;
+    background-color:#dbe6df;  
+}
+
+.Separator3
+{
+    height:2px;
+    width:100%;
+    background-color:#9dbaa8;  
+}
+
+.EmptyCell
+{
+     background-color: #769c7e;
+     width:120px;
+     height:20px;     
+     margin-left:10px;
+     margin-right:10px;
+}
+
+.MenuCell
+{
+     background-color: #769c7e;
+     width:100px;
+     height:30px;
+     margin-left:10px;
+     margin-right:10px;
+     text-align:center;     
+     font-family:Arial;
+     font-size:12pt;
+}
+
+a.MenuItems:link, a.MenuItems:visited, a.MenuItems:active
+{
+     text-decoration:none;
+     cursor:help;
+     color:#edffff;  
+}
+
+a.MenuItems:hover
+{
+     text-decoration:underline;
+     cursor:help;
+     color:#a8e0a3; 
+}
+
+.Text
+{
+     text-align:justify;     
+     font-family:Arial;
+     font-size:small;
+     padding:20px;
+     color:#2c4c40;
+     background-image:url('images/BackColorFlipped.gif');
+     background-repeat:repeat-x;
+     background-position:bottom;     
+}
+
+.Footer
+{
+    background-color:#769c7e;
+    height:25px;
+    text-align:center;
+    vertical-align:middle;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:10px;
+    font-weight:bold;
+}
